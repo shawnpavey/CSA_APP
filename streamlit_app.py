@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-from streamlit_image_coordinates import streamlit_image_coordinates
+#from streamlit_image_coordinates import streamlit_image_coordinates
 
 st.title("🎈 My new app")
 st.write(
@@ -43,6 +43,6 @@ if uploaded_file is not None:
     # Should output shape: (height, width, channels)
     st.write(img_array.shape)
     
-    value = streamlit_image_coordinates(img_array)
+    #value = streamlit_image_coordinates(img_array)
 
-    st.write(value)
+    #st.write(value)
