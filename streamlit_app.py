@@ -7,7 +7,7 @@ st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 )
 
-img_file_buffer = st.camera_input("Camera access",width = 2000)
+img_file_buffer = st.camera_input("Camera access")
 
 if img_file_buffer is not None:
     # To read image file buffer as a PIL Image:
